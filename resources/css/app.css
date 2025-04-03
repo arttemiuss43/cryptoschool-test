@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.video-js {
+    video {
+        object-fit: contain;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vjs-control-bar {
+        @apply bg-gray-800 text-white text-xs;
+    }
+
+    .vjs-progress-holder {
+        @apply bg-gray-700 h-0.5 rounded-full;
+    }
+
+    .vjs-play-progress,
+    .vjs-volume-level {
+        @apply bg-blue-600 !important;
+    }
+
+    .vjs-load-progress div {
+        @apply bg-white/20;
+    }
+
+    .vjs-play-control {
+        @apply text-blue-500;
+    }
+}
