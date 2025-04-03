@@ -57,3 +57,5 @@ While tests were intentionally omitted here due to time constraints, I normally 
 - Component and interaction tests for Vue interfaces (Vitest)
 
 Testing is part of how I build reliable and maintainable codebases, and it's something I always apply in production work.
+
+### [Conversion Optimization Details](./ab-test.md)
